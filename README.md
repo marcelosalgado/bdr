@@ -5,13 +5,13 @@ As respostas para as questoes 1, 2 e 3 se encontram nos arquivos questao1.php, q
 
 ## Exercícios 4
 A api questão 4 encontra-se no diretório Tarefa.
-####### Configuração
+### Configuração
 Espera-se um banco de dados mysql em localhost com usuário 'externo' e senha 'externo'.
 Criar schema no banco dados com o seguinte comando:
     "CREATE SCHEMA `tarefa` ;"
 A classe Tarefa/Classes/Banco cria a tabela necessária automaticamente, só o schema precisa ser criado manualmente.
 Estas configurações podem ser alteradas no arquivo Tarefas/config.php.
-####### Uso
+### Uso
 Utilizei o postman para testar, com solicitações.
 Exemplos de requisições:
 Tarefa/api.php (GET):
@@ -28,5 +28,5 @@ Tarefa/api.php (POST):
 Tarefa/api.php/1 (PATCH):
     Usando os seguintes dados: {"titulo": "aa2","descricao": "bb2","ordem": 2}
     1
-####### Notas
+### Notas
     Não tive tempo para fazer uma interface que permita o uso desta api na prática.
